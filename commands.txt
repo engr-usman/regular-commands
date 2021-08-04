@@ -1,0 +1,28 @@
+Ref link: https://medium.com/@igor_marques/git-basics-adding-more-changes-to-your-last-commit-1629344cb9a8
+git commit --amend --no-edit
+git push -f origin some_branch
+
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+Kubernetes commands:
+
+-for exec pod:
+kubectl exec --stdin --tty shell-demo -- /bin/bash
+
+-check the size of directory:
+du -sh dir_name
+
+===Pod commands: jenkins issue with customer api
+kubectl get pods -n jenkins
+kubectl get pods -n jenkins-build
+kubectl delete pod --all -n jenkins-build
+kubectl delete pod jenkins-87234083l-7slfj
+
+docker exec -u root -it myjenkins /bin/bash
+
+
+---> Terraform commands
+terraform state list
+terraform destroy -target module.vpc.aws_dynamodb_table.dynamodb-table
+
